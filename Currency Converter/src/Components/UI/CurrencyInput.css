@@ -1,0 +1,45 @@
+
+.container form .from, .container form .to{
+    width: 100%;
+}
+
+.label
+{
+    font-size: 0.8rem;
+    font-weight: 500;
+}
+
+
+.select-input{
+    display: flex;
+    width: 100%;
+    border: 1px solid #999;
+    height: 40px;
+    align-items: center;
+    border-radius: 5px;
+    padding: 0 20px;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.select-input:hover{
+    border: 1px solid #675afe;
+}
+
+.select-input img{
+    max-width: 20px;
+}
+
+.select-input select{
+    width: 100%;
+    cursor: pointer;
+    font-size: 1rem;
+    background: none;
+    margin: 0 -5px 0 5px;
+    color: #fff;
+}
+
+.select-input select option{
+    color: #000;
+}

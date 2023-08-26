@@ -1,0 +1,12 @@
+.reverse{
+    cursor: pointer;
+    margin-top: 32px;
+    margin-bottom: 32px;
+    font-size: 22px;
+    transform: rotate(90deg);
+    transition: all 0.3s ease;
+}
+
+.reverse:hover{
+    color: #675afe;
+}
