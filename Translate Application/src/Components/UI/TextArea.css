@@ -1,0 +1,32 @@
+textarea {
+    height: 250px;
+    width: 100%;
+    border: none;
+    outline: none;
+    resize: none;
+    background: none;
+    font-size: 18px;
+    padding: 10px 15px;
+    border-radius: 5px;
+}
+
+textarea::placeholder {
+    color: #b7b6b6;
+}
+
+textarea::-webkit-scrollbar {
+    width: 4px;
+}
+
+textarea::-webkit-scrollbar-track {
+    background: #fff;
+}
+
+textarea::-webkit-scrollbar-thumb {
+    background: #ddd;
+    border-radius: 8px;
+}
+
+textarea {
+    height: 200px;
+}

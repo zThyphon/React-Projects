@@ -1,0 +1,17 @@
+button {
+    width: 100%;
+    padding: 14px;
+    outline: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    margin-top: 20px;
+    font-size: 17px;
+    border-radius: 5px;
+    background: #06283D;
+  }
+  
+  button {
+    padding: 13px;
+    font-size: 16px;
+  }
